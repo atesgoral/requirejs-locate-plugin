@@ -49,5 +49,5 @@ require([ "locate!navItem?" ], function (navItems) {
 ## Todo
 
 - Service unregisteration (but is it really needed?)
-- Figure out what all this means during RequireJS optimization
+- ~~Figure out what all this means during RequireJS optimization~~
 - Figure out if the whole thing really has a practical application

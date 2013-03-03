@@ -1,0 +1,12 @@
+{
+    "appDir": "../sample",
+    "dir": "../dist",
+    "baseUrl": "./",
+    "paths": {
+        "locate": "../locate"
+    },
+    "optimize": "none",
+    "modules": [{
+        "name": "main"
+    }]
+}
