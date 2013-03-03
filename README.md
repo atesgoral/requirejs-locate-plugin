@@ -32,12 +32,12 @@ Prefix service names with `locate!`.
 ```js
 // Locate a single service
 require([ "locate!authentication" ], function (authentication) {
-    // Use the authentication module for log in
+    // Use the authentication module for logging in
     // ...
 });
 
 // Locate an array of services ('service' is a fancy name for any type of data, really)
-// The '?' at the end signifies that this is query
+// The '?' at the end signifies that this is a query
 // Zero or more items can be returned
 // A filter criteria could be supplied after the '?'
 require([ "locate!navItem?" ], function (navItems) {
