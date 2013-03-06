@@ -14,10 +14,10 @@ In a way, it's Dependency Injection where dependencies are injected on-the-fly w
 // Locate the registry
 require([ "locate!registry", "oauth" ], function (registry, oauth) {
     // Add some services to the registry
-    
+
     // The one and only authentication module
     registry.register("authentication", oauth);
-    
+
     // The navigation items for this app
     registry.register("navItem", { title: "Home", target: "#home", icon: "nav-icon-home" });
     registry.register("navItem", { title: "Kittens", target: "#kittens", icon: "nav-icon-kittens" });
@@ -46,8 +46,12 @@ require([ "locate!navItem?" ], function (navItems) {
 });
 ```
 
+## License
+
+MIT
+
 ## Todo
 
 - Service unregisteration (but is it really needed?)
 - ~~Figure out what all this means during RequireJS optimization~~
-- Figure out if the whole thing really has a practical application
+- ~~Figure out if the whole thing really has a practical application~~
