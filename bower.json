@@ -1,0 +1,14 @@
+{
+  "name": "requirejs-locate-plugin",
+  "version": "1.0.0",
+  "homepage": "https://github.com/atesgoral/requirejs-locate-plugin",
+  "authors": [
+    "Ates Goral <ates@magnetiq.com>"
+  ],
+  "description": "Implements the Service Locator Pattern through the use of a RequireJS plugin",
+  "main": "locate.js",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT"
+}
