@@ -4,6 +4,8 @@
  * Implements the Service Locator pattern through a RequireJS plugin
  */
 define(function () {
+    "use strict";
+
     var registry = {};
 
     return {
